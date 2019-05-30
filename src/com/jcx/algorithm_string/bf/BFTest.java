@@ -11,7 +11,7 @@ public class BFTest {
     public void test1(){
         String s = "abababcababcd";
         String t = "abca";
-        int i = BF.bfFind(s, t, 0);
+        int i = BF.bfFind(s, t);
         System.out.println(i);
     }
 
@@ -19,7 +19,7 @@ public class BFTest {
     public void test2(){
         String s = "abcdabcdefg";
         String t = "abcde";
-        int i = BF.bfFind(s, t, 1);
+        int i = BF.bfFind(s, t);
         System.out.println(i);
     }
 }
