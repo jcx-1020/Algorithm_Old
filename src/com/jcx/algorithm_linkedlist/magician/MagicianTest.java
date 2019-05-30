@@ -8,7 +8,7 @@ package com.jcx.algorithm_linkedlist.magician;
  * 第三次摸出从上往下数第三张，是3，翻过来放在桌面上，（第一张和第二张 放在最下面去，等会儿再摸）
  * 以此类推 最后一张就是13
  */
-public class Test {
+public class MagicianTest {
     public static void main(String[] args) {
         CycLink cycLink = new CycLink();
     }
