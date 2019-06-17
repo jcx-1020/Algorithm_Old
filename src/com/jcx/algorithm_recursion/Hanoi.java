@@ -3,7 +3,9 @@ package com.jcx.algorithm_recursion;
 import java.util.Scanner;
 
 /**
- * 汉诺塔
+ * 汉诺塔：
+ * 将第一座塔上的所有盘子，借助第二座塔，全部搬运到第三座塔上。
+ * 规则：一次只能搬运一个盘子，不准将大盘子落在小盘子上。
  */
 public class Hanoi {
     public static void main(String[] args) {
