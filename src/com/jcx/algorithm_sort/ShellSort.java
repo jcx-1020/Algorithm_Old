@@ -8,11 +8,11 @@ import java.util.Arrays;
 public class ShellSort {
     public static void main(String[] args) {
         int[] arr = {5, 2, 6, 0, 3, 9, 1, 7, 4, 8};
-        int[] sort = sort(arr);
-        System.out.println(Arrays.toString(sort));
+        sort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
-    public static int[] sort(int[] arr) {
+    public static void sort(int[] arr) {
         int x = arr.length;
         do {
             x = x / 3 + 1;
@@ -26,6 +26,5 @@ public class ShellSort {
                 }
             }
         } while (x > 1);
-        return arr;
     }
 }
