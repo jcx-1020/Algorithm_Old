@@ -1,18 +1,11 @@
 package leetcode;
 
-import java.util.Arrays;
 import java.util.HashMap;
 
 /**
  *给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标
  */
 public class TowSum {
-    public static void main(String[] args) {
-        int[] sums = {2, 7, 11, 15};
-        int target = 20;
-        int[] ints = twoSum(sums, target);
-        System.out.println(Arrays.toString(ints));
-    }
 
     public static int[] twoSum(int[] nums,int target){
         //创建map放nums中数据和下标
